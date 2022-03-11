@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>六角甜點工坊</title>
+
+  <link rel="shortcut icon" href="./images/logo-icon.png">
+  <meta name='description' content="" />
+  <meta name="keywords" content="bootstrap, 六角甜點, sweetast">
+  <meta property="og:title" content="" />
+  <meta property="og:description" content="">
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="FB上的網址" />
+  <meta property="og:image" content="FB的圖片" />
+
+  <link rel="apple-touch-icon" href="">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous"> -->
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css' />
+  <link rel="stylesheet" href="/stylesheets/all.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md bg-transparent py-4">
+    <div class="container">
+      <button class="navbar-toggler d-md-none text-green-middle" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNav" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <a class="navbar-brand me-0" href="index.html">
+        <img class="d-none d-md-block" src="./images/logo-all.svg" alt="logo" width="220" height="40">
+        <img class="d-md-none" src="./images/logotype-sm-dark.svg" alt="logo" width="115">
+      </a>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav me-4">
+          <li class="nav-item">
+            <a class="nav-link px-6 py-2 fw-bold link-green-middle active" aria-current="page" href="#">首頁</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-6 py-2 fw-bold link-green-middle" href="products.html">甜點</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-6 py-2 fw-bold link-green-middle" href="login.html">登入</a>
+          </li>
+        </ul>
+      </div>
+      <a class="nav-link" href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+    </div>
+  </nav>
+  <!-- banner+三塊 -->
+  <header class="container">
+    <h1 class="m-0 text-hide">六角甜點工坊</h1>
+    <div class="index-header-img bg-cover position-relative"
+      style="background-image: url(https://images.unsplash.com/photo-1473256599800-b48c7c88cd7e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ae0d68ab0db4ee79bdce92722b31112b&auto=format&fit=crop&w=925&q=80);">
+    </div>
+    <div class="row g-0 justify-content-center square-section">
+      <div class="col-md-10">
+        <div class="row g-0">
+          <a href="products.html" class="col square-outer position-relative text-center">
+            <div class="square-img position-absolute absolute-full bg-cover"
+              style="background-image: url(https://images.unsplash.com/photo-1504473089979-b1c4993a9653?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9db69b72e1f7d1b4e5c81cee531108ff&auto=format&fit=crop&w=634&q=80);">
+            </div>
+            <div class="square-color position-absolute absolute-full"></div>
+            <span class="square-text">本日精選</span>
+          </a>
+          <a href="products.html" class="col square-outer position-relative text-center">
+            <div class="square-img position-absolute absolute-full bg-cover"
+              style="background-image: url(https://images.unsplash.com/photo-1525059337994-6f2a1311b4d4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7ce5bbf66bdb4ed3b6965f0b3618aa43&auto=format&fit=crop&w=654&q=80);">
+            </div>
+            <div class="square-color position-absolute absolute-full"></div>
+            <span class="square-text">人氣推薦</span>
+          </a>
+          <a href="products.html" class="col square-outer position-relative text-center">
+            <div class="square-img position-absolute absolute-full bg-cover"
+              style="background-image: url(https://images.unsplash.com/photo-1490914327627-9fe8d52f4d90?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=73ed228f25bdefd2291c242f6d390fca&auto=format&fit=crop&w=634&q=80);">
+            </div>
+            <div class="square-color position-absolute absolute-full"></div>
+            <span class="square-text">新品上市</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- intro-1 -->
+  <section class="my-md-9">
+    <div class="row d-md-none justify-content-center g-0">
+      <div class="col-6 py-6">
+        <img class="img-fluid" src="./images/sm-為什麼選擇了做甜點.svg" alt="slogan">
+      </div>
+    </div>
+    <div class="bg-secondary text-green-middle">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 block-extend">
+            <!-- 因為裡面有h-100 block-extend下外層才有效 -->
+            <div class="intro-img mx-n12 mx-md-0 h-100 bg-cover"
+              style="background-image: url(https://images.unsplash.com/photo-1519730722595-a5ff788dea4d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2712a33fe9b13532f0682ac4e1e749b8&auto=format&fit=crop&w=634&q=80);">
+            </div>
+          </div>
+          <div class="col-md-6 intro-outer d-flex justify-content-end">
+            <div class="intro-text py-6 py-md-7">
+              <p class="mb-0">青山依舊在，幾度夕陽紅。慣看秋月春風。</p>
+              <p class="mb-0">一壺濁酒喜相逢，浪花淘盡英雄。是非成敗轉頭空，滾滾長江東逝水，白髮漁樵江渚上，古今多少事，都付笑談中。</p>
+              <p class="mb-0">是非成敗轉頭空，滾滾長江東逝水，白髮漁樵江渚上，古今多少事，都付笑談中。</p>
+            </div>
+            <div class="d-none d-md-block block-extend intro-title-m">
+              <img src="./images/lg-為什麼選擇了做甜點.svg" alt="slogan" width="88">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- intro-2 -->
+  <section class="my-md-9">
+    <div class="row d-md-none justify-content-center g-0">
+      <div class="col-6 py-6">
+        <img class="img-fluid" src="./images/sm-為什麼一定要吃甜點.svg" alt="slogan">
+      </div>
+    </div>
+    <div class="bg-secondary text-green-middle">
+      <div class="container">
+        <div class="row flex-md-row-reverse">
+          <div class="col-md-6 block-extend">
+            <div class="intro-img mx-n12 mx-md-0 h-100 bg-cover"
+              style="background-image: url(https://images.unsplash.com/photo-1497052254059-f3e0bf1a5133?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ce7267675921fc7e41b5610f49750a40&auto=format&fit=crop&w=685&q=80);">
+            </div>
+          </div>
+          <div class="col-md-6 intro-outer d-flex justify-content-end">
+            <div class="intro-text py-6 py-md-7">
+              <p class="mb-0">青山依舊在，幾度夕陽紅。慣看秋月春風。</p>
+              <p class="mb-0">一壺濁酒喜相逢，浪花淘盡英雄。是非成敗轉頭空，滾滾長江東逝水，白髮漁樵江渚上，古今多少事，都付笑談中。</p>
+              <p class="mb-0">是非成敗轉頭空，滾滾長江東逝水，白髮漁樵江渚上，古今多少事，都付笑談中。</p>
+            </div>
+            <div class="d-none d-md-block block-extend intro-title-m">
+              <img src="./images/lg-為什麼一定要吃甜點.svg" alt="slogan" width="88">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- large slogan -->
+  <section class="text-center my-md-9 my-6">
+    <img class="d-none d-md-inline" src="./images/lg-想吃甜點是不需要理由的.svg" alt="slogan" width="90">
+    <img class="d-md-none" src="./images/sm-想吃甜點是不需要理由的.svg" alt="slogan" width="256">
+  </section>
+  <!-- three products -->
+  <section class="container mb-6">
+    <div class="row">
+      <div class="col-md-4 mb-6 mb-md-0">
+        <div class="position-relative">
+          <span class="product-tag">本日精選</span>
+          <a href="#" class="far fa-heart product-like"></a>
+          <div class="product-img bg-cover"
+            style="background-image: url(https://images.unsplash.com/photo-1534073737927-85f1ebff1f5d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1204e5551548223af82981f0025984ef&auto=format&fit=crop&w=634&q=80);">
+          </div>
+          <div class="product-body">
+            <span class="product-name">
+              焦糖馬卡龍
+            </span>
+            <span class="product-price">
+              NT$ 450
+            </span>
+          </div>
+          <button class="btn btn-lg btn-cart">加入購物車</button>
+        </div>
+      </div>
+      <div class="col-md-4 mb-6 mb-md-0">
+        <div class="position-relative">
+          <span class="product-tag">本日精選</span>
+          <a href="#" class="far fa-heart product-like"></a>
+          <div class="product-img bg-cover"
+            style="background-image: url(https://images.unsplash.com/photo-1525059337994-6f2a1311b4d4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7ce5bbf66bdb4ed3b6965f0b3618aa43&auto=format&fit=crop&w=654&q=80);">
+          </div>
+          <div class="product-body">
+            <span class="product-name">
+              牛奶尬圈圈
+            </span>
+            <span class="product-price">
+              NT$ 450
+            </span>
+          </div>
+          <button class="btn btn-lg btn-cart">加入購物車</button>
+        </div>
+      </div>
+      <div class="col-md-4 mb-6 mb-md-0">
+        <div class="position-relative">
+          <span class="product-tag">本日精選</span>
+          <a href="#" class="far fa-heart product-like"></a>
+          <div class="product-img bg-cover"
+            style="background-image: url(https://images.unsplash.com/photo-1490474504059-bf2db5ab2348?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0cad6d3de8adbdf6298d4ca5d094f8c6&auto=format&fit=crop&w=1350&q=80);">
+          </div>
+          <div class="product-body">
+            <span class="product-name">
+              防疫健康吃
+            </span>
+            <span class="product-price">
+              NT$ 450
+            </span>
+          </div>
+          <button class="btn btn-lg btn-cart">加入購物車</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- subscription bar -->
+  <section class="py-6 bg-primary">
+    <div class="container">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-5 mb-6 mb-md-0 d-flex justify-content-center justify-content-md-start align-items-center">
+          <img class="me-3" src="./images/logo-light.svg" alt="logo" width="40">
+          <span class="fs-4 text-white">訂閱你我的甜蜜郵件</span>
+        </div>
+        <div class="col-md-5">
+          <div class="input-group input-group-lg">
+            <label class="input-group-text input-secondary" for="subscription"><i
+                class="fas fa-envelope"></i></label>
+            <input type="email" class="form-control input-secondary py-3" id="subscription"
+              aria-label="email for subscription">
+            <button class="btn btn-yellow-light px-4" type="button" id="button-subscribe"><i
+                class="fas fa-arrow-right"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="py-6 bg-secondary">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-5 d-flex flex-column">
+          <img class="mt-2 mb-md-auto mb-5" src="./images/logo-sm.svg" alt="logo" width="172">
+          <ul class="list-unstyled mb-5">
+            <li><a href="tel:07-1234-5678">07-1234-5678</a></li>
+            <li><a href="sweetaste@email.com">sweetaste@email.com</a></li>
+            <li>800 高雄市新興區幸福路 520 號</li>
+          </ul>
+          <ul class="media list-unstyled mb-3 mb-md-0">
+            <li><a href="#"><i class="fab fa-instagram-square"></i></a></li>
+            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+          </ul>
+          <p class="d-block d-md-none mb-0 text-nowrap">© 2018 Sweetaste* All Rights Reserved</p>
+        </div>
+        <div class="col-md-5 d-none d-md-flex flex-column align-items-end">
+          <img class="mb-5" src="./images/sm-今天是個吃甜點的好日子.svg" alt="slogan" width="60">
+          <p class="mb-0 text-nowrap">© 2018 Sweetaste* All Rights Reserved</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

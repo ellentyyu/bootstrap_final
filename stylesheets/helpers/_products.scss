@@ -1,0 +1,24 @@
+.product-header-img{
+    height: 496px;
+}
+.product-header-slogan{
+    width: 60px;
+    right: 30px;
+    top: 30px;
+    @include media-breakpoint-up(md) {
+        width: 90px;
+        right: 40px;
+        top: 40px;
+      }
+}
+
+.product-list-group-item, .product-list-group-item.active{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: $primary;
+    border-color: $secondary;
+    transition: background-color 0.3s;
+    &:hover, &.active{
+        background-color: $secondary;
+    }
+}

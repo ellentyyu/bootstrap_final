@@ -1,0 +1,28 @@
+.login-title-p{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.media-links{ 
+    .media-links-title{
+        margin-top: 10px;
+        margin-bottom: 40px;
+        @include media-breakpoint-up(md) {
+            margin-left: -20px;
+            margin-right: -20px;
+          }  
+    }
+    .btn-media-links{
+    background: white;
+    border-radius: 0px;
+    border: $secondary solid 1px;
+    padding-top:12px;
+    padding-bottom:12px;
+    &:hover{
+        border-color: #ccdbd4;
+        background-color: #ececec;
+    }
+    &:focus{
+        box-shadow: none;
+    }
+    }
+}

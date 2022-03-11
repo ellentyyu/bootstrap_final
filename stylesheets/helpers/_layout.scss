@@ -1,0 +1,53 @@
+body{
+  color: $primary
+}
+.bg-cover{
+    background-size: cover;
+    background-position: center center;
+  }
+.navbar .navbar-nav .nav-link{
+    &:hover, &:focus, &.active{
+      color: $primary;
+    }
+  }  
+.navbar .navbar-nav .show > .nav-link{
+    color: $primary;
+  }
+.btn-yellow-light, .input-group .btn-yellow-light, .input-group-lg .btn-yellow-light{
+  background: $yellow-light;
+  color: $primary;
+  font-weight: bold;
+  border-radius: 0;
+  &:hover{
+    color: $primary;
+    background-color: #ffd85a;
+  }
+}
+.input-group,.input-group-lg{
+  .input-secondary{
+    background-color: $secondary;
+    color: $primary;
+    border: 0;
+    border-radius: 0;
+  }
+} 
+.form-control:focus{
+    box-shadow: none;
+  }  
+
+.contact a{
+  text-decoration: none;
+  &:hover{
+    text-decoration: underline;
+  }
+}
+.media{
+     font-size: 32px;
+     line-height: 1;
+    li{
+      display: inline;
+    }
+    a{
+      text-decoration: none;
+    }
+  }
